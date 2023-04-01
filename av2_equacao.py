@@ -20,10 +20,10 @@ c = 5
 plt.title('Equação linear: y = a*x + b*x -c')
 plt.grid()
 
-# definind
+# definindo
 plt.plot(x1,menu(x1, a, b, c), marker="o",markersize=10,markerfacecolor='black')
 plt.plot(x2,menu(x2, a, b, c), marker="o",markersize=10,markerfacecolor='red')
-plt.plot(x2,menu(x3, a, b, c), marker="o",markersize=10,markerfacecolor='blue')
+plt.plot(x3,menu(x3, a, b, c), marker="o",markersize=10,markerfacecolor='blue')
 
 plt.legend([f'x={x1} y={menu(x1, a, b, c)}', f'x={x2} y={menu(x2, a, b, c)}',f'x={x3} y={menu(x3, a, b, c)}'])
 
